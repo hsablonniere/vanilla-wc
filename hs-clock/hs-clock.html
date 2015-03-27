@@ -1,0 +1,33 @@
+<template id="hs-clock">
+    <span class="hours"></span>
+    <span class="sep">:</span>
+    <span class="minutes"></span>
+    <span class="sep">:</span>
+    <span class="seconds"></span>
+    <span class="sep"> </span>
+    <span class="timezone"></span>
+
+    <style type="text/css">
+        :host {
+            display: block;
+            font-family: sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+
+        }
+
+        .hours,
+        .minutes {
+            font-size: 25px;
+        }
+
+        .sep {
+            color: #999;
+        }
+    </style>
+</template>
+
+
+<script src="moment.min.js"></script>
+<script src="moment-timezone-with-data.min.js"></script>
+<script src="hs-clock.js"></script>

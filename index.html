@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title></title>
+  <link rel="stylesheet" href="./index.css">
+  <link rel="import" href="hs-clock/hs-clock.html">
+</head>
+<body>
+
+<div>
+  <hs-clock timezone="Europe/Paris" id="clock"></hs-clock>
+  <hs-clock timezone="Pacific/Auckland"></hs-clock>
+</div>
+
+<button data-timezone="Europe/Paris">Europe/Paris</button>
+<button data-timezone="Asia/Tokyo">Asia/Tokyo</button>
+<button data-timezone="America/New_York">America/New_York</button>
+
+<script src="./index.js"></script>
+</body>
+</html>
